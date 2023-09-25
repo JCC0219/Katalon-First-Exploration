@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_From DateTo DateShow Leave with Status_080b22</name>
+   <tag></tag>
+   <elementGuidId>6712549a-1530-43e6-9b37-926f819ab9a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form.oxd-form</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>eb6dd70d-4eda-4139-a621-74ff4f02cd88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-form</value>
+      <webElementGuid>210ec9b9-8209-4b34-923d-8142417013dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>From DateTo DateShow Leave with StatusSelectPending Approval Leave Type-- Select --Employee NameInvalidSub Unit-- Select --Include Past Employees * Required Reset  Search </value>
+      <webElementGuid>48df5c17-0037-4cdd-9236-9de576e7ddba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;oxd-table-filter&quot;]/div[@class=&quot;oxd-table-filter-area&quot;]/form[@class=&quot;oxd-form&quot;]</value>
+      <webElementGuid>eadbaa0f-e90d-491e-8aa9-c36d30c18c32</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form</value>
+      <webElementGuid>5afa3f1c-a6c4-40d3-895f-688f70842a36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configure'])[1]/following::form[1]</value>
+      <webElementGuid>25b0d52a-ebd0-4fdf-9bab-869ca98a0949</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>e6f8beee-1c15-4545-a171-f46416c3d52c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'From DateTo DateShow Leave with StatusSelectPending Approval Leave Type-- Select --Employee NameInvalidSub Unit-- Select --Include Past Employees * Required Reset  Search ' or . = 'From DateTo DateShow Leave with StatusSelectPending Approval Leave Type-- Select --Employee NameInvalidSub Unit-- Select --Include Past Employees * Required Reset  Search ')]</value>
+      <webElementGuid>1dbc69fb-770c-4a22-96db-b98dd2dde7dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
