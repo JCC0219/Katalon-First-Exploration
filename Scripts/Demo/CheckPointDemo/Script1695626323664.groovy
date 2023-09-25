@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/CheckpointOne'), true)
 
+WebUI.delay(0)
+
