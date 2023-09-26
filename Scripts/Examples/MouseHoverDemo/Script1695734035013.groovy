@@ -21,9 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon.com/')
 
+WebUI.click(findTestObject('Object Repository/Page_Katalon AI-augmented Software Quality _596167/button_Accept All Cookies'))
+
+WebUI.delay(1)
+
 WebUI.mouseOver(findTestObject('Object Repository/Page_Katalon AI-augmented Software Quality _596167/div_Why Katalon'))
 
-WebUI.click(findTestObject('Object Repository/Page_Katalon AI-augmented Software Quality _596167/div_Success Stories'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_Katalon AI-augmented Software Quality _596167/div_Business Outcomes'))
+
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 
