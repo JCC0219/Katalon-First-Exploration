@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "CA6280169FA79F826FEBEA62E80C5BB2",
+  "keywordClasses": [
+    {
+      "name": "myPackage.LoginSteps",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

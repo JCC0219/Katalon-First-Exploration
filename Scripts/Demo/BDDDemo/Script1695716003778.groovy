@@ -14,20 +14,16 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
+import myPackage.CucumberRunner
+
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+CucumberKW.runFeatureFile('Include/features/Login.feature')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+CucumberKW.runFeatureFolder('Include/features')
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_username'), 'Admin')
+CucumberKW.runFeatureFileWithTags('Include/features/Login.feature', ((['@valid', '@smoke']) as String[]))
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
-
-WebUI.verifyTextPresent('Buzz Latest Posts 123', false, FailureHandling.OPTIONAL)
-
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
+CucumberKW.runWithCucumberRunner(CucumberRunner.class)
 
