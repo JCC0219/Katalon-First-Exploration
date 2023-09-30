@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>APIChaining_JSON</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e687ca6b-2f1e-4733-8989-6cacfa705c4e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33034003-254a-48fb-897e-cbb403640d24</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33034003-254a-48fb-897e-cbb403640d24</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
