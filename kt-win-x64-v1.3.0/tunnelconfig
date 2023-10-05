@@ -1,0 +1,15 @@
+allow_hosts = []
+api_key = "4eb25a03-949b-48e5-bd92-fc1d3f40cd2e"
+group = "b6b01079-c7d6-48d8-944a-15cfdc7dd6a7"
+inactive_tunnel_timeout = 0
+organization_id = 1255470
+private_tunnel = false
+proxy_host = ""
+proxy_password = ""
+proxy_port = ""
+proxy_username = ""
+retry = 3
+server = "https://tunnel-manager.katalon.com"
+team_id = 1205562
+tenant = "TestOps"
+username = "jingcheng070@gmail.com"
